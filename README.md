@@ -18,7 +18,7 @@ On the SQL Server VM, run:
 
 These scripts configure SST to listen on fixed TCP port **52525** and create the required inbound firewall rule.
 
-See [SST-SQL-Fixed-Port-52525-Setup.md](./SST-SQL-Fixed-Port-52525-Setup.md).
+See [SST-SQL-Fixed-Port-52525-Setup.md](./SST-SQL-Fixed-Port-52525/SST-SQL-Fixed-Port-52525-Setup.md).
 
 ### 2. Configure Windows Authentication without a domain
 
@@ -33,7 +33,7 @@ After running the client script, sign out and sign in using the local tester acc
 .\<tester-username>
 ```
 
-See [SST-Windows-Authentication-VM-Setup-v8.md](./SST-Windows-Authentication-VM-Setup-v8.md).
+See [SST-Windows-Authentication-VM-Setup-v8.md](./SST-WindowsAuth-Test-Scripts-v8/SST-Windows-Authentication-VM-Setup-v8.md).
 
 ## SQL Endpoint
 
