@@ -23,7 +23,7 @@ Ensure the following software is installed on the server:
 #### Install the CSDirector Server
 ---
 ##### Start the Installer
-- Download **CSDirectorInstallerServer_XXXXXXXX.exe** (currently found [here](https://strongtie.sharefile.com/#/folders/fo2f415b-d23f-47f3-b9f1-0588b8b5eb42))
+- Download **CSDirectorInstallerServer_XXXXXXXX.exe**
 - Double-click the file to start the installer.
 - When prompted by User Account Control, click **Yes**.
 ---
@@ -47,7 +47,7 @@ In **Database Name** field, accept the default or enter a database name followed
 _**Note:** The installer creates the required databases automatically._
 
 ---
-##### Configure server web services
+##### Configure Server Web Services
 ![SQL Config](./images/config-ws.jpg)
 1. Enter the server web services base URL and click *Next* to continue.
 
