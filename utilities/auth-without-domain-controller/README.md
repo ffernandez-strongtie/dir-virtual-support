@@ -1,3 +1,4 @@
+![Simpson Strong-Tie](./images/sst.png)
 # Windows Authentication for SST in a Non-Domain VM Test Environment
 
 ## Overview

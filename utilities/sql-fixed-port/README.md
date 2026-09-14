@@ -1,3 +1,4 @@
+![Simpson Strong-Tie](./images/sst.png)
 # Configure a Fixed SQL Server TCP Port for SST
 
 ## Overview
