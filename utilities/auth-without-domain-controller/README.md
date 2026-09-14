@@ -71,8 +71,8 @@ Open **PowerShell as Administrator**, go to the folder containing the script, an
 ```powershell
 cd "$HOME\Downloads"
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
-Unblock-File ".\Setup-SqlTestUser-Server-v8.ps1"
-.\Setup-SqlTestUser-Server-v8.ps1
+Unblock-File ".\Setup-SqlTestUser-Server.ps1"
+.\Setup-SqlTestUser-Server.ps1
 ```
 
 The execution-policy change applies only to the current PowerShell window. Closing the window restores the previous policy.
@@ -119,8 +119,8 @@ The client script:
 ```powershell
 cd "$HOME\Downloads"
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
-Unblock-File ".\Setup-SqlTestUser-Client-v8.ps1"
-.\Setup-SqlTestUser-Client-v8.ps1
+Unblock-File ".\Setup-SqlTestUser-Client.ps1"
+.\Setup-SqlTestUser-Client.ps1
 ```
 
 ## Client prompts
@@ -272,6 +272,6 @@ This preserves the application's requirement to use Windows Authentication witho
 ## Version 8 script names
 
 ```text
-Setup-SqlTestUser-Server-v8.ps1
-Setup-SqlTestUser-Client-v8.ps1
+Setup-SqlTestUser-Server.ps1
+Setup-SqlTestUser-Client.ps1
 ```
