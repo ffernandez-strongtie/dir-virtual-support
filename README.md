@@ -34,10 +34,10 @@ See [SQL Fixed Port](./utilities/sql-fixed-port/README.md).
 
 #### 2. Configure Windows Authentication without a domain
 
-Run the Version 8 account scripts using the same tester username and password on both machines:
+Run the scripts using the same tester username and password on both machines:
 
-- Server: `Setup-SqlTestUser-Server-v8.ps1`
-- Client: `Setup-SqlTestUser-Client-v8.ps1`
+- Server: `Setup-SqlTestUser-Server.ps1`
+- Client: `Setup-SqlTestUser-Client.ps1`
 
 After running the client script, sign out and sign in using the local tester account:
 
