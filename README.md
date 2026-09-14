@@ -12,7 +12,7 @@ Follow the instruction in this order:
 
 ## Workgroup or VM Support
 
-This repository contains PowerShell scripts and setup guides for running the **SST** SQL Server instance in a Windows VM test environment without a domain controller.
+This repository contains PowerShell scripts and setup guides for running the **SST** SQL Server instance in a Windows Workgroup or VM test environment without a domain controller.
 
 It addresses two common problems:
 
