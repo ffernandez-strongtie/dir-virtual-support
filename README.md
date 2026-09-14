@@ -1,3 +1,4 @@
+![Simpson Strong-Tie](./images/sst.png)
 # Virtualized CS Director Instructions
 
 This repository contains the instructions for installing the POC of CS Director which supports multiple users on the same machine connectinng to a dedicated server running Microsoft SQL.
