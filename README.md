@@ -7,7 +7,6 @@ This repository contains the instructions for installing the POC of CS Director 
 Follow the instruction in this order:
 
 -[CSDirector Server Guide](./CSDirector%20Server%20Guide/README.md) (must be installed before the client)
-
 -[CSDirector Client Guide](./CSDirector%20Client%20Guide/README.md)
 
 
