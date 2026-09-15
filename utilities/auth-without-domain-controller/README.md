@@ -3,12 +3,11 @@
 
 ## Overview
 
-If you are experiencing SQL Server connection failures in a virtual-machine environment that is **not connected to a domain controller**, Windows Authentication may fail even though:
+If you are experiencing SQL Server connection failures in a virtual-machine environment that is **not connected to a domain controller** (e.g. WORKGROUP), Windows Authentication may fail even though:
 
 - the SQL Server port is reachable;
 - the SQL Server instance is listening;
 - the firewall rule is correct; and
-- the same Microsoft work account is used to sign in to both VMs.
 
 Typical errors include:
 

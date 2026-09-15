@@ -174,11 +174,18 @@ finally {
 
 Write-Host
 Write-Host 'SERVER SETUP COMPLETE' -ForegroundColor Green
-Write-Host "Server computer : $ActualServerName"
-Write-Host "Tester username : $TesterUser"
-Write-Host "Windows login   : $WindowsLogin"
-Write-Host "Tester password : $AccountPassword"
-Write-Host "SQL instance    : $SqlInstance"
-Write-Host "SQL endpoint    : tcp:$ActualServerName,$SqlPort"
+Write-Host "Server computer     : $ActualServerName"
+Write-Host "Tester username     : $TesterUser"
+Write-Host "Windows login       : $WindowsLogin"
+Write-Host "Tester password     : $AccountPassword"
+Write-Host "SQL instance        : $SqlInstance"
+Write-Host "SQL endpoint        : tcp:$ActualServerName,$SqlPort"
+Write-Host
+Write-Host 'CONFIGURATION MANAGER SETTINGS' -ForegroundColor Green
+Write-Host "Database Instance   : $ActualServerName\$SqlInstance,$SqlPort"
+Write-Host "Database Name       : CSDatabaseClient_$TesterUser"
+Write-Host "Web Services        : net.tcp://$ActualServerName"
+Write-Host "Web Services Port   : 8201 (default)"
+Write-Host "Reporting Services  : http://$ActualServerName/ReportServer_SST (default)"
 Write-Host
 Write-Warning 'This script grants sysadmin and uses an easy password by default. Use only in disposable test environments.'
