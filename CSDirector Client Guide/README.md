@@ -127,3 +127,17 @@ The installer automatically:
 - Deployed reports
 
 
+---
+
+### Support for Truss Studio - Alpha Multiuser Release
+
+You will needto install the Truss Studio installer (TrussStudio-perMachine.msi).
+
+**Note** that after you install TrussStudio you need to copy these 2 files from the TrussStudio folder into the DLL folder that the Director install creates replacing the ones that are there:
+ 
+> StudioDataAccessor.dll
+> SimpsonIAC.dll
+
+You will also need to modify these nodes in **CSDirector.exe.config**
+`<add key="TrussDir" value="C:\SST-2026R3\Client\Truss" /> `
+`<add key="TitusDir" value="C:\SST-2026R3\Client\TrussStudio" />`
