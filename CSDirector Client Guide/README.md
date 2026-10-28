@@ -139,5 +139,5 @@ You will needto install the Truss Studio installer (TrussStudio-perMachine.msi).
 > SimpsonIAC.dll
 
 You will also need to modify these nodes in **CSDirector.exe.config**
-`<add key="TrussDir" value="C:\SST-2026R3\Client\Truss" /> `
+`<add key="TrussDir" value="C:\SST-2026R3\Client\Truss" />`
 `<add key="TitusDir" value="C:\SST-2026R3\Client\TrussStudio" />`
